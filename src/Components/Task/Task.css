@@ -1,0 +1,17 @@
+.Task {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding-right: 20px;
+    padding-left: 40px;
+    font-weight: bold;
+    color: #404040;
+}
+
+.Task button {
+    border: 0;
+}
+
+.Task:nth-child(2n) {
+    background-color: #d9d9d9;
+}

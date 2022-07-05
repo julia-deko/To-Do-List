@@ -1,0 +1,30 @@
+.AddBar {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px
+}
+
+
+.AddBar input {
+    width: 500px;
+    padding: .88rem 0;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #010c3f;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.AddBar button {
+    cursor: pointer;
+    padding: 14px 30px;
+    background-color: #ff9900;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
